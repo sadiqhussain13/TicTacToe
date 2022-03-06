@@ -10,7 +10,6 @@ public class TicTacToe
 		}
 		catch(Exception e)
 		{
-
 		}
 	}	
 	public static String[] board = new String[]{"1","2","3","4","5","6","7","8","9"};
@@ -22,7 +21,6 @@ public class TicTacToe
 
 	public static void main(String args[])
 	{		
-
 		//Introduction
 		intro();		
 
@@ -65,7 +63,6 @@ public class TicTacToe
 				break;
 				}
 			}
-
 		}
 
 		//check for win
@@ -85,8 +82,6 @@ public class TicTacToe
 		{
 			System.out.println("The match is a tie!");
 		}
-
-		
 		input.close();
 	}	
 	
